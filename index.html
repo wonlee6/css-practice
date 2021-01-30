@@ -1,108 +1,145 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
+  <head>
+    <meta charset="utf-8" />
     <title>Youtube Mobile</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <i class="fab fa-youtube"></i>
-            <span class="title">Youtube</span>
-        </div>
-        <div class="icons">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-ellipsis-v"></i>
-        </div>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
     </header>
 
     <!-- video player-->
     <section class="player">
-        <iframe src="https://www.youtube.com/embed/gd9UXP7BrvE?list=RDgd9UXP7BrvE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe
+        src="https://www.youtube.com/embed/gd9UXP7BrvE?list=RDgd9UXP7BrvE"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </section>
 
     <div class="infoAndUpNext">
-    <!-- video Info-->
-    <section class="info">
+      <!-- video Info-->
+      <section class="info">
         <div class="metadata">
-            <ul class="hashtags">
-                <li>#DreamCoding</li>
-                <li>#DreamCoders</li>
-                <li>#김민주</li>
-            </ul>
-            <div class="titleAndButton">
-                <span class="title clamp">
-                    Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라 만들기
-                    html, css, javascript 드림코딩과 함게하는 프로트엔드 실전 입문편
-                </span>
-                <button class="moreBtn">
-                    <i class="fas fa-caret-down"></i>
-                </button>
-            </div>
-           <div class="views">
-               <span class="views">1M views 1 month ago</span>
-           </div>
+          <ul class="hashtags">
+            <li>#DreamCoding</li>
+            <li>#DreamCoders</li>
+            <li>#김민주</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp">
+              Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라
+              만들기 html, css, javascript 드림코딩과 함게하는 프로트엔드 실전
+              입문편
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <div class="views">
+            <span class="views">1M views 1 month ago</span>
+          </div>
         </div>
         <div class="actions">
-            <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
-            <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
-            <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
-            <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
-            <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
         </div>
         <div class="channel">
-            <div class="metadata">
-                <img src="./image/1.jpg" alt="">
-                <div class="info">
-                    <span class="name">sang won</span>
-                    <span class="subscribers">1M subscribers</span>
-                </div>
+          <div class="metadata">
+            <img src="./image/7.jpg" alt="" />
+            <div class="info">
+              <span class="name">sang won</span>
+              <span class="subscribers">1M subscribers</span>
             </div>
-            <button class="subscribers">subscribe</button>
+          </div>
+          <button class="subscribers">subscribe</button>
         </div>
-    </section>
-    <section class="upNext">
+      </section>
+      <section class="upNext">
         <span class="title">Up next</span>
         <ul>
-            <li class="item">
-                <div class="img"><img src="./image/5.jpg" alt=""></div>
-                <div class="info">
-                    <span class="title">프론트엔드 강의</span>
-                    <div class="span name">드림코딩 by 엘리</div>
-                    <span class="views">82K views</span>
-                </div>
-                <button class="moreBtn">
-                    <i class="fas fa-ellipsis-v"></i>
-                </button>
-            </li>
-            <li class="item">
-                <div class="img"><img src="./image/4.jpg" alt=""></div>
-                <div class="info">
-                    <span class="title">프론트엔드 강의</span>
-                    <div class="span name">드림코딩 by 엘리</div>
-                    <span class="views">82K views</span>
-                </div>
-                <button class="moreBtn">
-                    <i class="fas fa-ellipsis-v"></i>
-                </button>
-            </li>
-            <li class="item">
-                <div class="img"><img src="./image/2.jpg" alt=""></div>
-                <div class="info">
-                    <span class="title">프론트엔드 강의</span>
-                    <div class="span name">드림코딩 by 엘리</div>
-                    <span class="views">82K views</span>
-                </div>
-                <button class="moreBtn">
-                    <i class="fas fa-ellipsis-v"></i>
-                </button>
-            </li>
+          <li class="item">
+            <div class="img"><img src="./image/css.png" alt="css" /></div>
+            <div class="info">
+              <span class="title"
+                >클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹
+                포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS,
+                Javascript</span
+              >
+              <div class="span name">드림코딩 by 엘리</div>
+              <span class="views">조회수 46,572회 • 2020.3.14</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="./image/html.png" alt="html" /></div>
+            <div class="info">
+              <span class="title"
+                >웹사이트 따라만들기, 반응형 헤더편 | 프론트엔드 개발자 입문편:
+                HTML, CSS, Javascript</span
+              >
+              <div class="span name">드림코딩 by 엘리</div>
+              <span class="views">조회수 66,085회 • 2020.3.3</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="./image/javascript.png" alt="javascript" />
+            </div>
+            <div class="info">
+              <span class="title"
+                >자바스크립트 최신 문법 (ES6, ES11) | 모르면 후회 하는 최신
+                문법과 사용법 정리 🐶</span
+              >
+              <div class="span name">드림코딩 by 엘리</div>
+              <span class="views">조회수 24,933회 • 2020.12.11</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
         </ul>
-    </section>
-</div>
-</body>
+      </section>
+    </div>
+  </body>
 </html>
